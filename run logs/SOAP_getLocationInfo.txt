@@ -1,0 +1,39 @@
+{parking_v10}Test_getLocationInfo[1.0].0.0:1:latitude,31.906009
+{parking_v10}Test_getLocationInfo[1.0].0.0:1:longitude,35.204124
+{parking_v10}Test_getLocationInfo[1.0].0.0:2:locationInfo,null
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:CALLER,null
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:delete_on_finish,null
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:ENDDT,2018-06-03 24:48:03.045
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:Finalized,Yes
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:READYDT,2018-06-03 24:48:01.590
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:START,1
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:STARTDT,2018-06-03 24:48:01.591
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:STATE,4
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:SuspendAfterCreation,null
+{parking_v10}Test_getLocationInfo[1.0].0.0:0:WALL,1.455
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:1:lat,31.906009
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:1:long,35.204124
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:2:locationInfo,null
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:ENDDT,2018-06-03 24:48:03.044
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:HOST,127.0.1.1
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:NAME,SOAP_getLocationInfo
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:PROGNAME,{parking_v10}SOAP_getLocationInfo[1.0]
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:READYDT,2018-06-03 24:48:01.591
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:RESTART,null
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:START,1
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:STARTDT,2018-06-03 24:48:01.593
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:STATE,4
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:TYPE,ACTY
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:0:WALL,1.453
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:4:AM,INVOKEAdapter
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:4:destination,http://bedetaxi.cloudapp.net/BedeService/Service1.svc
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:4:message,<soapEnv:Envelope xmlns:soapEnv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapEnc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsdns0="http://tempuri.org/Imports" xmlns:bns="http://tempuri.org/">
+<soapEnv:Body>
+    <bns:getInRangeDrivers>
+         <bns:lat>31.906009</bns:lat>
+         <bns:lng>35.204124</bns:lng>
+</bns:getInRangeDrivers>
+</soapEnv:Body></soapEnv:Envelope>
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:4:SOAPaction,http://tempuri.org/IService1/getInRangeDrivers
+{parking_v10}Test_getLocationInfo[1.0].SOAP_getLocationInfo.0:5:message,<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><getInRangeDriversResponse xmlns="http://tempuri.org/"><getInRangeDriversResult>[{&quot;status&quot;:&quot;success&quot;,&quot;details&quot;:[&quot;db0354ad-5968-45ff-8688-91d747e1ec50&quot;],&quot;title&quot;:&quot;George Al Saa\u0027 St -Saleh Khalaf&quot;,&quot;country&quot;:&quot;ps&quot;,&quot;duration&quot;:3}]</getInRangeDriversResult></getInRangeDriversResponse></s:Body></s:Envelope>
